@@ -1,0 +1,41 @@
+# === Backend (Spring Boot) ===
+booking-backend/target/
+booking-backend/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# === Frontend (React / Node.js) ===
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+
+# Env files
+*.env
+*.env.*
